@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>GET vs POST Example</title>
+</head>
+<body>
+  <h2>GET Method Form</h2>
+  <form action="/search" method="get">
+    <label for="get-name">Enter your name:</label>
+    <input type="text" id="get-name" name="Username" placeholder="John Doe">
+    <br>
+    <br>
+    <label for="get-password">Enter your Password</label>
+    <input type="password" id="get-password" name="Password">
+    <button type="submit">Submit using GET</button>
+  </form>
+
+  <hr>
+
+  <h2>POST Method Form</h2>
+  <form action="/submit" method="post">
+    <label for="post-name">Enter your name:</label>
+    <input type="text" id="post-name" name="name" placeholder="John Doe">
+    <br>
+    <br>
+    <label for="get-password">Enter your Password</label>
+    <input type="password" id="get-password" name="Password">
+    <button type="submit">Submit using POST</button>
+  </form>
+</body>
+</html>
